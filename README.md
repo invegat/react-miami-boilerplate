@@ -6,10 +6,10 @@ A React/Redux boilerplate with Bootstrap.
 
 ```
 # install it
-$ npm install
+$ yarn install
 
 # start it
-$ npm start
+$ yarn start
 
 # open it
 $ open http://localhost:2001

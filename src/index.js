@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router';
 import { Provider } from 'react-redux';
 import { store, history } from './redux/store';
-import injectTapEventPlugin from 'react-tap-event-plugin';
+// import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import Routes from './routes';
 import App from './app';
@@ -13,7 +13,7 @@ import './styles/sass/andromeda.scss';
 
 // Needed for onTouchTap - Can go away when react 1.0 release
 // Check this repo: https://github.com/zilverline/react-tap-event-plugin
-injectTapEventPlugin();
+// injectTapEventPlugin();
 
 // Routes template.
 const template = (
